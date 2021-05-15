@@ -1,6 +1,6 @@
 import axios from 'axios'
 axios.defaults.withCredentials=true
-axios.defaults.baseURL="https://mokespace.cn/weimai";
+axios.defaults.baseURL="http://localhost:8081";
 
 //封装ajax
 export default function ajax(url='',params={},type='GET'){
